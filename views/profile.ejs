@@ -2,13 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
     <title>Command Center</title>
   </head>
   <body>
     <p>Wins: <%= data[0].local.win %></p>
     <p>Number of losses: <%= data[0].local.lost %></p>
-    <p>Winnings: <%= data[0].local.winnings %></p>
-    <p>Losses: <%= data[0].local.losses %></p>
-     <p> <%= user %> </p> 
+    <p>Winnings: $<%= data[0].local.winnings %></p>
+    <p>Losses: $<%= data[0].local.losses %></p>
+     <p> <%= user %> </p>
+
+     <script type="text/javascript" src="style.css"></script>
   </body>
 </html>
